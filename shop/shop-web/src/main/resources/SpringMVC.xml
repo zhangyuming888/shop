@@ -21,5 +21,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <!-- 3、开启注解驱动支持-->
+    <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
+
 </beans>
