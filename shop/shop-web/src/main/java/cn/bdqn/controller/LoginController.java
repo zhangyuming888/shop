@@ -16,6 +16,6 @@ public class LoginController {
      * */
     @RequestMapping("/mlogin")
     public String mlogin(){
-        return "/mlogin";
+        return "/login/mlogin";
     }
 }
