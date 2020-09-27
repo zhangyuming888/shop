@@ -18,4 +18,12 @@ public class LoginController {
     public String mlogin(){
         return "/login/mlogin";
     }
+    /**
+     * 登录验证
+     * */
+    @RequestMapping("/tologin")
+    public String tologin(){
+        System.out.println("登录请求");
+        return "/login/mlogin";
+    }
 }
