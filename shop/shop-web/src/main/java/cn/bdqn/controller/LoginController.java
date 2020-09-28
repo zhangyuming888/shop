@@ -30,8 +30,9 @@ public class LoginController {
      * */
     @RequestMapping("/tologin")
     public String tologin(Manage manage, HttpServletRequest request){
-        System.out.println("登录请求");
+        System.out.println(manage);
         Manage byEntity = manageService.getByEntity(manage);
+        System.out.println(byEntity);
         if(byEntity==null){
             return "redirect:/login/mtuichu";
         }

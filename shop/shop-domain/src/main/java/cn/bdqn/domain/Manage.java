@@ -37,4 +37,14 @@ public class Manage {
     public void setRealName(String realName) {
         this.realName = realName;
     }
+
+    @Override
+    public String toString() {
+        return "Manage{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", realName='" + realName + '\'' +
+                '}';
+    }
 }
